@@ -1,0 +1,33 @@
+{
+  "name": "rd-parse",
+  "version": "3.4.0",
+  "description": "Recursive descent parser generator. Define your grammar in pure Javascript.",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "ava": {
+    "files": [
+      "**/*.spec.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmaevsky/rd-parse.git"
+  },
+  "keywords": [
+    "recursive",
+    "descent",
+    "parser"
+  ],
+  "author": "Dmitry Maevsky",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.15.0"
+  },
+  "dependencies": {
+    "run": "^1.4.0"
+  }
+}
